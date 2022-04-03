@@ -3,6 +3,7 @@ name: Matthew Hoctor, PharmD
 position: "Public Health Pharmacist"
 address: "Portland, OR"
 email: "matthew.hoctor@mail.mcgill.ca"
+# phone: 518.708.9638
 github: matthew-hoctor
 linkedin: matthew-hoctor
 orcid: 0000-0001-7059-1940
@@ -16,9 +17,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
-library(tibble)
 library(dplyr)
-# library(knitr)
 library(readODS)
 ```
 
@@ -73,7 +72,8 @@ read_ods("data.ods",
                  what = what,
                  when = when,
                  with = with,
-                 where = where,
+                 # where = where,
+                 where = place,
                  why = why)
 ```
 
@@ -86,7 +86,8 @@ read_ods("data.ods",
                  what = what,
                  when = when,
                  with = with,
-                 where = where,
+                 # where = where,
+                 where = place,
                  why = why)
 ```
 
@@ -99,7 +100,8 @@ read_ods("data.ods",
                  what = what,
                  when = when,
                  with = with,
-                 where = where,
+                 # where = where,
+                 where = place,
                  why = why)
 ```
 
