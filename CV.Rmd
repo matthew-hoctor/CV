@@ -1,0 +1,157 @@
+---
+name: Matthew Hoctor, PharmD
+position: "Public Health Pharmacist"
+address: "Portland, OR"
+email: "matthew.hoctor@mail.mcgill.ca"
+github: matthew-hoctor
+linkedin: matthew-hoctor
+orcid: 0000-0001-7059-1940
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    latex_engine: "xelatex"
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+# library(knitr)
+library(readODS)
+```
+
+# Education
+
+```{r}
+read_ods("data.ods",
+         sheet = "edu") %>%
+  detailed_entries(
+                 what = degree,
+                 when = dates,
+                 with = uni,
+                 where = loc,
+                 why = details)
+```
+
+# Licensure
+
+```{r}
+read_ods("data.ods",
+         sheet = "lic") %>%
+  detailed_entries(
+                 what = license,
+                 when = dates,
+                 with = with,
+                 where = where,
+                 why = details)
+```
+
+# Selected Certifications
+
+```{r}
+read_ods("data.ods",
+         sheet = "cert") %>%
+  detailed_entries(
+    what = cert,
+    # with = with,
+    # where = where,
+    when = when,
+    why = why,
+    )
+```
+
+\pagebreak
+
+# Experience
+
+```{r}
+read_ods("data.ods",
+         sheet = "exp") %>%
+  detailed_entries(
+                 what = what,
+                 when = when,
+                 with = with,
+                 where = where,
+                 why = why)
+```
+
+# Pharmacy Practice Experience
+
+```{r}
+read_ods("data.ods",
+         sheet = "ppe") %>%
+  detailed_entries(
+                 what = what,
+                 when = when,
+                 with = with,
+                 where = where,
+                 why = why)
+```
+
+# Volunteer Experience
+
+```{r}
+read_ods("data.ods",
+         sheet = "vol") %>%
+  detailed_entries(
+                 what = what,
+                 when = when,
+                 with = with,
+                 where = where,
+                 why = why)
+```
+
+\pagebreak
+
+# Professional Organizations
+
+```{r}
+read_ods("data.ods",
+         sheet = "prof") %>%
+  detailed_entries(
+                 what = what,
+                 when = when,
+                 with = with,
+                 where = where,
+                 why = why)
+```
+
+# Honors
+
+```{r}
+read_ods("data.ods",
+         sheet = "hon") %>%
+  detailed_entries(
+                 what = what,
+                 when = when,
+                 with = with,
+                 where = where,
+                 why = why)
+```
+
+# Selected Presentations
+
+ * *Candida auris - A Proposal to Reduce Transmission & Selection of Resistant Strains*, class presentatation, Current Issues in Public Health, **OHSU-PSU School of Public Health**, Mar 2022
+ * *Long-Term Effects of Budesonide or Nedocromil in Children with Asthma*, class presentation, Applied Longitudinal Data Analysis, **OHSU-PSU School of Public Health**, Dec 2021
+ * *Reducing Harms of Smoking in People Living With HIV*, class presentation, HIV/AIDS Epidemiology, **OHSU-PSU School of Public Health**, Dec 2021
+ * *Cannabis Use and High Blood Pressure*, class presentation, Epidemiologic Data Analysis & Interpretation, **OHSU-PSU School of Public Health**, Aug 2021
+ * *Atypical Antipsychotics*, inservice presentation, Pharmacy & Therapeutics Committee, **Ketchikan Indian Community Tribal Health Clinic**, Mar 2016
+ * *Patient Case: Febrile Neutropenia*, inservice presentation, Clinical Pharmacy Staff Meeting, **Cancer Treatment Centers of America**, Jan 2016
+ * *The Role of Theophylline in COPD Maintenance Therapy*, inservice presentation, **Temple University Hospital - Respiratory Intensive Care Unit**, Nov 2015
+ * *Cisplatin Overdose Root Cause Analysis*, class presentation, Medication Error Surveillance and Control Planning, **Temple University School of Pharmacy**, Apr 2015
+ * *Case Report: Brazil Nut Induced Type 1 Anaphylaxis*, class presentation, Adverse Drug Reactions II: Case Studies, **Temple University School of Pharmacy**, Apr 2015
+ * *Accumulating Advantage*, class presentation, Outcomes of Diversity in the Pharmacy Practice, **Temple University School of Pharmacy**, Nov 2014
+ * *Dichloro Methane: Reducing Lifecycle Impacts*, class Presentation, Green Chemistry, **McGill University**, Mar 2008
+
+```{r}
+# read_ods("data.ods", 
+#          sheet = "pres") %>%
+#   detailed_entries(
+#                  what = what,
+#                  when = when,
+#                  with = with,
+#                  where = where,
+#                  why = why)
+```
