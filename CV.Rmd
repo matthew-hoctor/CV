@@ -135,7 +135,7 @@ read_ods("data.ods",
 
 # Selected Presentations
 
- * *Candida auris - A Proposal to Reduce Transmission & Selection of Resistant Strains*, class presentatation, Current Issues in Public Health, **OHSU-PSU School of Public Health**, Mar 2022
+ * *Candida auris - A Proposal to Reduce Transmission & Selection of Resistant Strains*, class presentation, Current Issues in Public Health, **OHSU-PSU School of Public Health**, Mar 2022
  * *Long-Term Effects of Budesonide or Nedocromil in Children with Asthma*, class presentation, Applied Longitudinal Data Analysis, **OHSU-PSU School of Public Health**, Dec 2021
  * *Reducing Harms of Smoking in People Living With HIV*, class presentation, HIV/AIDS Epidemiology, **OHSU-PSU School of Public Health**, Dec 2021
  * *Cannabis Use and High Blood Pressure*, class presentation, Epidemiologic Data Analysis & Interpretation, **OHSU-PSU School of Public Health**, Aug 2021
