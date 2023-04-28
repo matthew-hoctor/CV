@@ -6,7 +6,8 @@ email: "matthew.hoctor@mail.mcgill.ca"
 phone: 518.708.9638
 github: matthew-hoctor
 linkedin: matthew-hoctor
-orcid: 0000-0001-7059-1940
+# orcid: 0000-0001-7059-1940
+# NPI: 1376031146
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::awesomecv:
@@ -135,17 +136,17 @@ read_ods("data.ods",
 
 # Selected Presentations
 
- * *Candida auris - A Proposal to Reduce Transmission & Selection of Resistant Strains*, class presentation, Current Issues in Public Health, **OHSU-PSU School of Public Health**, Mar 2022
- * *Long-Term Effects of Budesonide or Nedocromil in Children with Asthma*, class presentation, Applied Longitudinal Data Analysis, **OHSU-PSU School of Public Health**, Dec 2021
- * *Reducing Harms of Smoking in People Living With HIV*, class presentation, HIV/AIDS Epidemiology, **OHSU-PSU School of Public Health**, Dec 2021
- * *Cannabis Use and High Blood Pressure*, class presentation, Epidemiologic Data Analysis & Interpretation, **OHSU-PSU School of Public Health**, Aug 2021
- * *Atypical Antipsychotics*, inservice presentation, Pharmacy & Therapeutics Committee, **Ketchikan Indian Community Tribal Health Clinic**, Mar 2016
- * *Patient Case: Febrile Neutropenia*, inservice presentation, Clinical Pharmacy Staff Meeting, **Cancer Treatment Centers of America**, Jan 2016
- * *The Role of Theophylline in COPD Maintenance Therapy*, inservice presentation, **Temple University Hospital - Respiratory Intensive Care Unit**, Nov 2015
- * *Cisplatin Overdose Root Cause Analysis*, class presentation, Medication Error Surveillance and Control Planning, **Temple University School of Pharmacy**, Apr 2015
- * *Case Report: Brazil Nut Induced Type 1 Anaphylaxis*, class presentation, Adverse Drug Reactions II: Case Studies, **Temple University School of Pharmacy**, Apr 2015
- * *Accumulating Advantage*, class presentation, Outcomes of Diversity in the Pharmacy Practice, **Temple University School of Pharmacy**, Nov 2014
- * *Dichloro Methane: Reducing Lifecycle Impacts*, class Presentation, Green Chemistry, **McGill University**, Mar 2008
+ * *Candida auris - A Proposal to Reduce Transmission & Selection of Resistant Strains*, Class Presentation, Current Issues in Public Health, **OHSU-PSU School of Public Health**, Mar 2022
+ * *Long-Term Effects of Budesonide or Nedocromil in Children with Asthma*, Class Presentation, Applied Longitudinal Data Analysis, **OHSU-PSU School of Public Health**, Dec 2021
+ * *Reducing Harms of Smoking in People Living With HIV*, Class Presentation, HIV/AIDS Epidemiology, **OHSU-PSU School of Public Health**, Dec 2021
+ * *Cannabis Use and High Blood Pressure*, Class Presentation, Epidemiologic Data Analysis & Interpretation, **OHSU-PSU School of Public Health**, Aug 2021
+ * *Atypical Antipsychotics*, Inservice Presentation, Pharmacy & Therapeutics Committee, **Ketchikan Indian Community Tribal Health Clinic**, Mar 2016
+ * *Patient Case: Febrile Neutropenia*, Inservice Presentation, Clinical Pharmacy Staff Meeting, **Cancer Treatment Centers of America**, Jan 2016
+ * *The Role of Theophylline in COPD Maintenance Therapy*, Inservice Presentation, **Temple University Hospital - Respiratory Intensive Care Unit**, Nov 2015
+ * *Cisplatin Overdose Root Cause Analysis*, Class Presentation, Medication Error Surveillance and Control Planning, **Temple University School of Pharmacy**, Apr 2015
+ * *Case Report: Brazil Nut Induced Type 1 Anaphylaxis*, Class Presentation, Adverse Drug Reactions II: Case Studies, **Temple University School of Pharmacy**, Apr 2015
+ * *Accumulating Advantage*, Class Presentation, Outcomes of Diversity in the Pharmacy Practice, **Temple University School of Pharmacy**, Nov 2014
+ * *Dichloro Methane: Reducing Lifecycle Impacts*, Class Presentation, Green Chemistry, **McGill University**, Mar 2008
 
 ```{r}
 # read_ods("data.ods", 
