@@ -53,6 +53,7 @@ read_ods("data.ods",
 ```{r}
 read_ods("data.ods",
          sheet = "cert") %>%
+  filter(include_fed == 1) %>%
   detailed_entries(
     what = cert,
     # with = with,
@@ -146,7 +147,10 @@ read_ods("data.ods",
  * *Cisplatin Overdose Root Cause Analysis*, Class Presentation, Medication Error Surveillance and Control Planning, **Temple University School of Pharmacy**, Apr 2015
  * *Case Report: Brazil Nut Induced Type 1 Anaphylaxis*, Class Presentation, Adverse Drug Reactions II: Case Studies, **Temple University School of Pharmacy**, Apr 2015
  * *Accumulating Advantage*, Class Presentation, Outcomes of Diversity in the Pharmacy Practice, **Temple University School of Pharmacy**, Nov 2014
- * *Dichloro Methane: Reducing Lifecycle Impacts*, Class Presentation, Green Chemistry, **McGill University**, Mar 2008
+ * *Potential Public Health Benefits of Pharmacist Immunization in Pennsylvania*, Poster Presentation to Lawmakers and Public, **Pennsylvania Pharmacists Association**, Apr 2013
+ * *Folate in Biochemical & Synthetic Catalytic Systems*, Class Presentation, Heterocyclic Organic Chemistry, **University at Albany**, Dec 2010
+ * *Dichloro Methane - Reducing Lifecycle Impacts*, Class Presentation, Green Chemistry, **McGill University**, Mar 2008
+ * *Process Development of 3-aminonapth-1-ol*, Poster Presentation **Albany Molecular Research International**, Aug 2007
 
 ```{r}
 # read_ods("data.ods", 
