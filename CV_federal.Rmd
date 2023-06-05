@@ -63,8 +63,6 @@ read_ods("data.ods",
     )
 ```
 
-\pagebreak
-
 # Experience
 
 ```{r}
