@@ -78,6 +78,8 @@ read_ods("data.ods",
                  why = why)
 ```
 
+\pagebreak
+
 # Pharmacy Practice Experience
 
 ```{r}
@@ -91,6 +93,8 @@ read_ods("data.ods",
                  where = place,
                  why = why)
 ```
+
+\pagebreak
 
 # Volunteer Experience
 
@@ -106,7 +110,6 @@ read_ods("data.ods",
                  why = why)
 ```
 
-\pagebreak
 
 # Professional Organizations
 
@@ -133,6 +136,8 @@ read_ods("data.ods",
                  where = where,
                  why = why)
 ```
+
+\pagebreak
 
 # Selected Presentations
 
