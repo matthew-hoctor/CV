@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # large format files
 CV_federal_big.*
+
+# experimental files
+Publications-test.csv
