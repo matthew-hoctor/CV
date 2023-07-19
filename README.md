@@ -2,5 +2,5 @@ This CV was created with the `vitae` package, which can be found [here](https://
 
 # CV
 
- - [Main CV](https://github.com/matthew-hoctor/CV/blob/main/CV.pdf)
- - [Federal CV](https://github.com/matthew-hoctor/CV/blob/main/CV_federal.pdf)
+ - [Download CV](https://raw.githubusercontent.com/matthew-hoctor/CV/main/CV.pdf)
+ - [Download Federal CV](https://raw.githubusercontent.com/matthew-hoctor/CV/main/CV_federal.pdf)
