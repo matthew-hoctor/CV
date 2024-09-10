@@ -1,0 +1,29 @@
+---
+title: "README"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(qrcode)
+```
+
+This CV was created with the `vitae` package, which can be found [here](https://github.com/ropenscilabs/vitae).  Note that the `CV_federal` version is designed to U.S. [federal government requirements for CVs/resumes submitted through USJobs.gov](https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/).
+
+# CV
+
+ - [Download CV](https://raw.githubusercontent.com/matthew-hoctor/CV/main/CV.pdf)
+ 
+```{r CV QR code, echo = FALSE}
+qr_code("https://raw.githubusercontent.com/matthew-hoctor/CV/main/CV.pdf") |>
+  plot()
+```
+
+# Federal CV
+
+ - [Download Federal CV](https://raw.githubusercontent.com/matthew-hoctor/CV/main/CV_federal.pdf)
+ 
+```{r federal CV QR code, echo = FALSE}
+qr_code("https://raw.githubusercontent.com/matthew-hoctor/CV/main/CV_federal.pdf") |>
+  plot()
+```
