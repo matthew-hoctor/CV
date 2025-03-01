@@ -43,3 +43,7 @@ CV_federal_big.*
 
 # experimental files
 Publications-test.csv
+
+# other files
+CV_old.pdf
+CV.Rproj
