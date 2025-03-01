@@ -156,13 +156,13 @@ read_ods("data.ods",
  * *Dichloro Methane - Reducing Lifecycle Impacts*, Class Presentation, Green Chemistry, **McGill University**, Mar 2008
  * *Process Development of 3-aminonapth-1-ol*, Poster Presentation **Albany Molecular Research International**, Aug 2007
 
-```{r}
-# read_ods("data.ods", 
-#          sheet = "pres") %>%
-#   detailed_entries(
-#                  what = what,
-#                  when = when,
-#                  with = with,
-#                  where = where,
-#                  why = why)
+```{r include=FALSE}
+read_ods(
+  "data.ods",
+  sheet = "pres") %>%
+  brief_entries(
+    what = Title,
+    when = Date,
+    with = Institution
+    )
 ```
